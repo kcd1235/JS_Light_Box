@@ -24,6 +24,6 @@ function change_img(val) {
   for (var i = 0; i < imgs.length; i++) {
     imgs[i].removeAttribute("class");
   }
-  console.log(val);
+
   imgs[val - 1].setAttribute("class", "active");
 }
