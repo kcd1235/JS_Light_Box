@@ -13,6 +13,15 @@ $(function () {
   }
 
   //이미지 전환
+  function change_img(val) {
+    var $imgs = $("figure>img");
+
+    for (var i = 0; i < $imgs.length; i++) {
+      $imgs.eq(i).removeAttr("class");
+    }
+
+    $imgs.eq(val).attr("class", "active");
+  }
 
   //라이트박스 종료
   function lightbox_close() {
