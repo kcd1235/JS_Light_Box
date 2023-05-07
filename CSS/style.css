@@ -80,6 +80,23 @@ figure img.active {
   display: block;
 }
 
+/* 인디케이터 */
+.indicator {
+  text-align: center;
+}
+
+.indicator button {
+  background: #666;
+  color: white;
+  font-size: 12px;
+  border: none;
+  padding: 2px 5px;
+}
+
+.indicator button:focus {
+  background: #38f;
+}
+
 /* 창 닫기 버튼 */
 .btn_close {
   position: absolute;
