@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
-    <script src="./JS/main.js"></script>
     <title>LightBox</title>
 </head>
 
 <body>
     <header>
         <h1>Light Box</h1>
-        <img src="" alt="" width="100" class="thumb" onclick="lightbox_open(1)" />
-        <img src="" alt="" width="100" class="thumb" onclick="lightbox_open(2)" />
-        <img src="" alt="" width="100" class="thumb" onclick="lightbox_open(3)" />
+        <img src="./Img/img01.jpg" alt="" width="100" class="thumb" onclick="lightbox_open(1)" />
+        <img src="./Img/img02.jpg" alt="" width="100" class="thumb" onclick="lightbox_open(2)" />
+        <img src="./Img/img03.jpg" alt="" width="100" class="thumb" onclick="lightbox_open(3)" />
     </header>
 
     <!-- 라이트박스 배경  -->
@@ -28,9 +27,9 @@
             아빠를 찾아 헤메는데... <br><br>
         </p>
         <figure>
-            <img src="" alt="" class="active" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src="./Img/img01.jpg" alt="" class="active" />
+            <img src="./Img/img02.jpg" alt="" />
+            <img src="./Img/img03.jpg" alt="" />
         </figure>
 
         <div class="indicator">
@@ -42,5 +41,6 @@
         <div class="btn_close" onclick="lightbox_close()">X</div>
     </div>
 </body>
+<script src="./JS/main.js"></script>
 
 </html>
